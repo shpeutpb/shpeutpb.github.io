@@ -18,7 +18,7 @@ hugo new site mynewsite
 
 **3. Install the theme**
 
-Download or git clone this theme into the sites themes folder `mynewsite/themes`. You should end up with the following folder structure `mynewsite/themes/hugo-winston-theme`
+Download or git clone this theme into the sites themes folder `mynewsite/themes`. You should end up with the following folder structure `mynewsite/themes/devfest-theme-hugo`
 
 ```
 cd mynewsite
