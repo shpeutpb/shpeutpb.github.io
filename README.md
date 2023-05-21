@@ -1,5 +1,7 @@
 ## Installation
 
+* Install Go and Git(64-bit)*
+
 **1. Install Hugo**
 
 To use this theme you will first need to have Hugo installed. Please follow the official [installation guide](https://gohugo.io/getting-started/installing/)
