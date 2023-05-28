@@ -4253,11 +4253,13 @@ textarea.form-control-lg {
   }
 
 .nav-item:hover .sub-menu {
+	position: absolute;
 	display: block;
 }
 
 .sub-menu-item {
 	margin-bottom: 5px;
+	list-style: none; 
 }
 
 .navbar-nav-scroll {
