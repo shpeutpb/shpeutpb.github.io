@@ -11869,19 +11869,17 @@ img.wp-smiley, img.emoji {
 /* CONTACT US */
   .contact-form-wrap {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #1b68af;
     border-radius: 1.25rem;
-    padding: 20px;
+    padding: 40px;
     color: #ffffff;
   }
 
   .contact-form-wrap h3 {
     display: flex;
     align-items: center;
-    font-size: 18px;
     margin: 0;
   }
 
@@ -11897,7 +11895,8 @@ img.wp-smiley, img.emoji {
   }
 
   .contact-form .form-group {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     gap: 5px;
   }
 
