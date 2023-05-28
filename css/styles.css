@@ -4238,22 +4238,23 @@ textarea.form-control-lg {
 }
 
 .sub-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #f8f8f8;
-  padding: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+  }
 
 .nav-item:hover .sub-menu {
-  display: block;
+	display: block;
 }
 
 .sub-menu-item {
-  margin-bottom: 5px;
-} 
+	margin-bottom: 5px;
+}
 
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
