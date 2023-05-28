@@ -4245,6 +4245,7 @@ textarea.form-control-lg {
 .sub-menu {
     display: none;
     position: absolute;
+    list-style: none; 
     top: 100%;
     left: 0;
     background-color: #f8f8f8;
