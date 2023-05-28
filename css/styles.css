@@ -4170,7 +4170,12 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
-  max-height: 40px;
+}
+
+.navbar .navbar-brand img {
+  height: 26px;
+  width: 26px;
+  margin-right: .25rem
 }
 .navbar-nav {
   display: flex;
@@ -4232,7 +4237,7 @@ textarea.form-control-lg {
   background-size: 100%;
 }
 
-/* .sub-menu {
+.sub-menu {
   display: none;
   position: absolute;
   top: 100%;
@@ -4248,7 +4253,7 @@ textarea.form-control-lg {
 
 .sub-menu-item {
   margin-bottom: 5px;
-} */
+} 
 
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
