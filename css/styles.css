@@ -11944,3 +11944,16 @@ img.wp-smiley, img.emoji {
     margin: 0.25rem;
     margin: var(--space-2);
 }
+
+/* ABOUT PHOTOS */
+.photo-collage {
+  float: right;
+  width: 33.33%;
+}
+
+.photo-collage img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
