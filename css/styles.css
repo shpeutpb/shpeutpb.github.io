@@ -11827,7 +11827,7 @@ img.wp-smiley, img.emoji {
     border-radius: 1.25rem;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+    background-color: #1b68af;
   }
 
   #calendar h2 {
@@ -11844,10 +11844,9 @@ img.wp-smiley, img.emoji {
   }
 
   .event-list li {
-    background-color: #1b68af;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .event-list li h3 {
