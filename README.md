@@ -55,12 +55,11 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 
 #### Color Palette
-```
 * 192a52
 * 1b68af
 * 78abbf
 * ed5c29
 * d03719
-```
+
 
 [Become a Member](https://forms.office.com/pages/responsepage.aspx?id=qbmAGv_YqECmbMazaOTyrlfc8a9tbPhJlsiK0RTnG6ZUQjk5TDE2TEVBRFdSSzZMQzlYODlVQlk5VS4u)
