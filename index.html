@@ -125,30 +125,28 @@
 
      
     
-        
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="TOKEN_HERE">
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                </div>
-                            </div>
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+     <!-- CONTACT -->   
+        <section class="contact-form-wrap sub-footer-block">
+		<h3><img draggable="false" class="emoji" alt="📨" src="https://twemoji.maxcdn.com/v/14.0.2/72x72/1f4e8.png">️  Contact Us</h3>
+		<div class="contact-form">
+			<form action="mailto:shpeatutpb@gmail.com" method="POST" enctype="text/plain">
+				<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="text" id="email" name="email" required>
+				</div>
+				<div class="form-group">
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" required></textarea>
+				</div>
+				<div class="form-group">
+					<button type="submit">Send Email</button>
+				</div>
+			</form>
+		</div>
         </section>
         
 <section id="sub-colophon">
@@ -157,43 +155,24 @@
 	</svg>
 	<div class="sub-footer-content">
 		<div class="content-wrap">
-			<section class="contact-form-wrap sub-footer-block">
-				<h3><img draggable="false" class="emoji" alt="📨" src="https://twemoji.maxcdn.com/v/14.0.2/72x72/1f4e8.png">️  Subscribe to our newsletter</h3>
-				<p>Get the latest updates from Techqueria in your inbox every month.</p>
-				<script type="text/javascript">var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});</script>
-				<div class="gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper" id="gform_wrapper_8"><form method="post" enctype="multipart/form-data" id="gform_8" action="/" novalidate="" data-hs-cf-bound="true">
-					<div class="gform_body gform-body"><ul id="gform_fields_8" class="gform_fields top_label form_sublabel_below description_below"><li id="field_8_1" class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_8_1"><label class="gfield_label" for="input_8_1">First name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_text"><input name="input_1" id="input_8_1" type="text" value="" class="medium" placeholder="First name" aria-required="true" aria-invalid="false"> </div></li><li id="field_8_2" class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_8_2"><label class="gfield_label" for="input_8_2">Last name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_text"><input name="input_2" id="input_8_2" type="text" value="" class="medium" placeholder="Last name" aria-required="true" aria-invalid="false"> </div></li><li id="field_8_3" class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_8_3"><label class="gfield_label" for="input_8_3">Your email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_email">
-						<input name="input_3" id="input_8_3" type="email" value="" class="medium" placeholder="Email" aria-required="true" aria-invalid="false">
-						</div></li><li id="field_8_4" class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_8_4"><label class="gfield_label" for="input_8_4">Name</label><div class="ginput_container"><input name="input_4" id="input_8_4" type="text" value="" autocomplete="new-password"></div><div class="gfield_description" id="gfield_description_8_4">This field is for validation purposes and should be left unchanged.</div></li></ul></div>
-					<div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_8" class="gform_button button" value="Subscribe" onclick="if(window[&quot;gf_submitting_8&quot;]){return false;}  if( !jQuery(&quot;#gform_8&quot;)[0].checkValidity || jQuery(&quot;#gform_8&quot;)[0].checkValidity()){window[&quot;gf_submitting_8&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_8&quot;]){return false;} if( !jQuery(&quot;#gform_8&quot;)[0].checkValidity || jQuery(&quot;#gform_8&quot;)[0].checkValidity()){window[&quot;gf_submitting_8&quot;]=true;}  jQuery(&quot;#gform_8&quot;).trigger(&quot;submit&quot;,[true]); }"> 
-						<input type="hidden" class="gform_hidden" name="is_submit_8" value="1">
-						<input type="hidden" class="gform_hidden" name="gform_submit" value="8">
-						<input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
-						<input type="hidden" class="gform_hidden" name="state_8" value="WyJbXSIsIjBmMjQxNmIxN2MyMmUzY2I4MjM1YjBlN2M5MDg1ZDdmIl0=">
-						<input type="hidden" class="gform_hidden" name="gform_target_page_number_8" id="gform_target_page_number_8" value="0">
-						<input type="hidden" class="gform_hidden" name="gform_source_page_number_8" id="gform_source_page_number_8" value="1">
-						<input type="hidden" name="gform_field_values" value="">
+			<div class="two-column">
+			<!-- DONATE -->
+				<section id="sub-footer-1" class="column sub-footer-block "><div id="text-4" class="widget widget_text">
+					<div class="textwidget"><h1 class="h4"><img decoding="async" class="emoji jetpack-lazy-image jetpack-lazy-image--handled" role="img" draggable="false" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f49b.svg" alt="💛" data-lazy-loaded="1" loading="eager"><noscript><img decoding="async" data-lazy-fallback="1" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f49b.svg" alt="💛"  /></noscript> Donate to SHPEUTPB</h1>
+					<p>Support our SHPE chapter and help us empower and inspire the next generation of Hispanic engineers and STEM leaders.</p>
+					<p><a class="btn" href="#donate">Make a Donation</a></p>
 					</div>
-					<p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1685280340902"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
-				</div>
-			</section><!-- .contact-form-wrap -->
-		<div class="two-column">
-		<!-- DONATE -->
-			<section id="sub-footer-1" class="column sub-footer-block "><div id="text-4" class="widget widget_text">
-				<div class="textwidget"><h1 class="h4"><img decoding="async" class="emoji jetpack-lazy-image jetpack-lazy-image--handled" role="img" draggable="false" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f49b.svg" alt="💛" data-lazy-loaded="1" loading="eager"><noscript><img decoding="async" data-lazy-fallback="1" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f49b.svg" alt="💛"  /></noscript> Donate to SHPEUTPB</h1>
-				<p>Support our SHPE chapter and help us empower and inspire the next generation of Hispanic engineers and STEM leaders.</p>
-				<p><a class="btn" href="#donate">Make a Donation</a></p>
-				</div>
-				</div>
-			</section>
-		<!-- JOIN --> 
-			<section id="sub-footer-2" class="column sub-footer-block "><div id="text-5" class="widget widget_text">
-				<div class="textwidget"><h1 class="h4"><img decoding="async" class="emoji jetpack-lazy-image jetpack-lazy-image--handled" role="img" draggable="false" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f4bc.svg" alt="💼" data-lazy-loaded="1" loading="eager"><noscript><img decoding="async" data-lazy-fallback="1" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f4bc.svg" alt="💼"  /></noscript> Join the Chapter</h1>
-				<p>Join our SHPE chapter today and unlock a world of opportunities to empower yourself, connect with like-minded individuals, and make a lasting impact in the engineering and STEM community!</p>
-				<p><a class="btn" href="https://forms.office.com/pages/responsepage.aspx?id=qbmAGv_YqECmbMazaOTyrlfc8a9tbPhJlsiK0RTnG6ZUQjk5TDE2TEVBRFdSSzZMQzlYODlVQlk5VS4u">Become a Member</a></p>
-				</div>
-				</div>
-			</section>
+					</div>
+				</section>
+			<!-- JOIN --> 
+				<section id="sub-footer-2" class="column sub-footer-block "><div id="text-5" class="widget widget_text">
+					<div class="textwidget"><h1 class="h4"><img decoding="async" class="emoji jetpack-lazy-image jetpack-lazy-image--handled" role="img" draggable="false" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f4bc.svg" alt="💼" data-lazy-loaded="1" loading="eager"><noscript><img decoding="async" data-lazy-fallback="1" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f4bc.svg" alt="💼"  /></noscript> Join the Chapter</h1>
+					<p>Join our SHPE chapter today and unlock a world of opportunities to empower yourself, connect with like-minded individuals, and make a lasting impact in the engineering and STEM community!</p>
+					<p><a class="btn" href="https://forms.office.com/pages/responsepage.aspx?id=qbmAGv_YqECmbMazaOTyrlfc8a9tbPhJlsiK0RTnG6ZUQjk5TDE2TEVBRFdSSzZMQzlYODlVQlk5VS4u">Become a Member</a></p>
+					</div>
+					</div>
+				</section>
+			</div>
 		</div>
 	</div>
 </section>
