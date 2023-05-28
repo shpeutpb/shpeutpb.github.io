@@ -11744,6 +11744,140 @@ body {
 }
 
 /*  */
+.wp-block-columns {
+
+	@include breakpoint(tabletup) {
+		display: grid;
+		grid-auto-flow: column;
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		grid-gap: 20px;
+	}
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	.wp-block-column {
+		margin-bottom: 20px;
+
+		@include breakpoint(tabletup) {
+			padding-left: 8px;
+			padding-right: 8px;
+			margin-bottom: 0;
+		}
+
+		> *:first-child{
+			margin-top: 0;
+		}
+
+		> *:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	.wp-block-column:not(:first-child) {
+		margin-left: 0;
+	}
+}
+
+.alignfull {
+	margin: 32px calc(50% - 50vw);
+	max-width: 100vw;
+	width: 100vw;
+}
+
+//.alignwide {
+//	@include breakpoint(tabletup) {
+//		margin: 32px calc(50% - 47vw);
+//		max-width: 94vw;
+//		width: 94vw;
+//	}
+//
+//	@media (min-width: 984px) {
+//		margin: 32px calc(50% - 40vw);
+//		max-width: 80vw;
+//		width: 80vw;
+//	}
+//}
+
+.alignwide {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.alignwide {
+		margin: 32px 0;
+		max-width: 100%;
+	}
+}
+
+
+
+.wp-block-media-text .wp-block-media-text__content {
+	@media(max-width: 585px) {
+		padding: 0;
+	}
+
+	@include breakpoint(mobiledown) {
+		margin-top: 35px;
+	}
+}
+
+.wp-block-group.has-background {
+	@extend .has-big-padding;
+}
+
+.wp-block-column {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6 {
+		margin-bottom: 8px;
+	}
+
+	h1 + p,
+	h2 + p,
+	h3 + p,
+	h4 + p,
+	h5 + p,
+	h6 + p,
+	.h1 + p,
+	.h2 + p,
+	.h3 + p,
+	.h4 + p,
+	.h5 + p,
+	.h6 + p{
+		margin-top: 0;
+	}
+}
+
+// Force the rounded corner images
+.wp-block-image:not(.is-style-rounded) img {
+	border-radius: $img_border_radius;
+}
+
+.wp-block-media-text.is-image-fill figure.wp-block-media-text__media {
+	border-radius: $img_border_radius;
+}
+
+.blocks-gallery-grid .blocks-gallery-image,
+.blocks-gallery-grid .blocks-gallery-item,
+.wp-block-gallery .blocks-gallery-image,
+.wp-block-gallery .blocks-gallery-item {
+	figcaption{
+		border-bottom-left-radius: $img_border_radius;
+		border-bottom-right-radius: $img_border_radius;
+	}
+}
+
 .wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image) {
     margin: 0;
     width: calc(50% - var(--wp--style--unstable-gallery-gap, 16px)/2)
