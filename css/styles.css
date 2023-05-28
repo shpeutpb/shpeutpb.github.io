@@ -4651,14 +4651,14 @@ textarea.form-control-lg {
 
 .card {
   position: relative;
-  display: flex;
+  display: grid;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 1.25rem;
 }
 .card > hr {
   margin-right: 0;
