@@ -4237,6 +4237,10 @@ textarea.form-control-lg {
   background-size: 100%;
 }
 
+.nav-item {
+  position: relative;
+}
+
 .sub-menu {
     display: none;
     position: absolute;
