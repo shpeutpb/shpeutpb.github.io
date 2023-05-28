@@ -11832,7 +11832,7 @@ img.wp-smiley, img.emoji {
 
   #calendar h2 {
     margin-bottom: 20px;
-    text-color: #ffffff;
+    color: #ffffff;
     font-weight: bold;
   }
 
@@ -11857,4 +11857,43 @@ img.wp-smiley, img.emoji {
 
   .event-list li p {
     margin-bottom: 5px;
+  }
+
+/* CONTACT US */
+  .contact-form-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b68af;
+    border-radius: 1.25rem;
+    padding: 20px;
+    color: #ffffff;
+  }
+
+  .contact-form-wrap h3 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .contact-form {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+
+  .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .contact-form .form-group {
+    display: grid;
+    gap: 5px;
+  }
+
+  .contact-form label {
+    font-weight: bold;
   }
