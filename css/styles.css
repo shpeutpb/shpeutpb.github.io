@@ -4206,6 +4206,7 @@ textarea.form-control-lg {
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
+  cursor: pointer;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -4229,6 +4230,24 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu-item {
+  margin-bottom: 5px;
 }
 
 .navbar-nav-scroll {
