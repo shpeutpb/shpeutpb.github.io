@@ -11945,13 +11945,12 @@ img.wp-smiley, img.emoji {
 /* CONTACT US */
   .contact-form-wrap {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     background-color: #1b68af;
     border-radius: 1.25rem;
     padding: 40px;
     color: #ffffff;
     margin-top: 6rem;
+    flex-direction: column;
   }
 
 .contact-form-wrap h3 {
