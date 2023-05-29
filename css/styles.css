@@ -11669,7 +11669,7 @@ body {
 .featured-text {
   grid-area: text;
   color: #000;
-  width: 75%;
+  width: 90%;
   padding-right: 2rem;
 }
 
