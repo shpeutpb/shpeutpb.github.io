@@ -11640,6 +11640,33 @@ body {
   }
 }
 
+/* ABOUT */
+.about-section {
+	padding-top: 5rem;
+	background: #fff;
+}
+
+.about-section p {
+	margin-bottom: 2rem;
+}
+
+.featured-text {
+	color: #000;
+}
+
+.photo-collage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 1rem;
+}
+
+.photo-collage img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
@@ -11931,33 +11958,6 @@ img.wp-smiley, img.emoji {
     background-size: cover;
     margin: 0.25rem;
     margin: var(--space-2);
-}
-
-/* ABOUT */
-.about-section {
-	padding-top: 5rem;
-	background: #fff;
-}
-
-.about-section p {
-	margin-bottom: 2rem;
-}
-
-.featured-text {
-	color: #000;
-}
-
-.photo-collage {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	gap: 1rem;
-}
-
-.photo-collage img {
-	width: 100%;
-	height: auto;
-	max-width: 100%;
 }
 
 
