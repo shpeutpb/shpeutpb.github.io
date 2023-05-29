@@ -11722,7 +11722,7 @@ body {
 }
 
 
-/* .projects-section {
+.projects-section {
   padding: 10rem 0;
 }
 .projects-section .featured-text {
@@ -11803,7 +11803,7 @@ body {
 }
 .contact-section .social a:active {
   color: #fff;
-} */
+} 
 
 .text-center .hero-down {
     flex: 0;
