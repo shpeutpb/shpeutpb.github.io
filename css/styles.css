@@ -11651,7 +11651,9 @@ body {
 }
 
 .featured-text {
-	color: #d03719;
+  grid-area: text;
+  width: 30%;
+  padding-right: 2rem;
 }
 
 .photo-collage {
