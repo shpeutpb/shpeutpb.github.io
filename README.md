@@ -1,65 +1,27 @@
-## Installation
+## Steps to Edit
 
-* Install Go and Git(64-bit)*
+**1. Download Project**
+* Click on **<>Code**
+* Download ZIP
+* Unzip the file
 
-**1. Install Hugo**
+**2. Edit**
+* Upload/open folder in **VSCode**
+* Click on `events.html` and edit as needed
+* Make sure _File > Auto Save_
+* Click on _Run > Start Debugging_ to open `localhost` in browser and see changes
+* Once complete, Copy/Paste edits to `events.html` file on Github
 
-To use this theme you will first need to have Hugo installed. Please follow the official [installation guide](https://gohugo.io/getting-started/installing/)
+> ⚠️ **Note:** `index.html` is the file to the main page. Only edit if necessary
 
-> ⚠️ **Note:** Check your Hugo version - **Hugo Extended** is required!
-
-This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/scss-sass/) to compile SCSS and minify assets which means if you are not using the Hugo extended version this theme will not work. To check your version of Hugo, run `hugo version`. Make sure you see **/extended** after the version number, for example _Hugo Static Site Generator v0.51/extended darwin/amd64 BuildDate: unknown_ You do not need to use version v0.51 specifically, it just needs to have the _/extended_ part.
-
-**2. Create a new Hugo site**
-
-This will create a fresh Hugo site in the folder `mynewsite`.
-
-```
-hugo new site mynewsite
-```
-
-**3. Install the theme**
-
-Download or git clone this theme into the sites themes folder `mynewsite/themes`. You should end up with the following folder structure `mynewsite/themes/devfest-theme-hugo`
-
-```
-cd mynewsite
-git clone https://github.com/shpeatutpb/devfest-theme-hugo.git themes/devfest-theme-hugo
-```
-
-**4. Copy the example content**
-
-Copy the entire contents of the `mynewsite/themes/devfest-theme-hugo/exampleSite/` folder to root folder of your Hugo site, ie `mynewsite/`. To copy the files using terminal, make sure you are still in the projects root, ie the `mynewsite` folder.
-
-```
-cp -a themes/hugo-winston-theme/exampleSite/. .
-```
-
-**6. Run Hugo**
-
-After installing the theme for the first time, generate the Hugo site.
-
-You run this command from the root folder of your Hugo site ie `mynewsite`
-
-```
-hugo
-```
-
-For local development run Hugo's built-in local server.
-
-```
-hugo server
-```
-
-Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
+**3. Test**
+* Make sure to check the [site](https://shpeutpb.github.io/) for updates
+* Remember, it might take a few minutes for site to display changes
+  
+> ⚠️ **Note:** While there are certainly more efficient ways to edit projects on GitHub, given the constraints of time and knowledge, the above procedure will be followed.
 
 
 #### Color Palette
-* 192a52
-* 1b68af
-* 78abbf
-* ed5c29
-* d03719
 
 
-[Become a Member](https://forms.office.com/pages/responsepage.aspx?id=qbmAGv_YqECmbMazaOTyrlfc8a9tbPhJlsiK0RTnG6ZUQjk5TDE2TEVBRFdSSzZMQzlYODlVQlk5VS4u)
+Interested in joining? [Become a Member](https://forms.office.com/pages/responsepage.aspx?id=qbmAGv_YqECmbMazaOTyrlfc8a9tbPhJlsiK0RTnG6ZUQjk5TDE2TEVBRFdSSzZMQzlYODlVQlk5VS4u)
