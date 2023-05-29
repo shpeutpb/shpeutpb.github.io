@@ -11668,7 +11668,15 @@ body {
 	justify-content: space-between;
 }
 
-.top-images img {
+.top-images img:first-child,
+.top-images img:nth-child(2) {
+	width: 50%;
+	height: auto;
+	max-width: 100%;
+	margin-bottom: 1rem;
+}
+
+.top-images img:last-child {
 	width: 100%;
 	height: auto;
 	max-width: 100%;
