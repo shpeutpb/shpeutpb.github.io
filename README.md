@@ -24,6 +24,4 @@
 #### Color Palette
 <img width="1357" alt="color-palette" src="https://github.com/shpeutpb/shpeutpb.github.io/assets/134008623/574a08f8-bf6e-4866-a0b4-4dfb604828c0">
 
-<br>
-<br>
-Interested in joining? [Become a Member!](https://forms.office.com/pages/responsepage.aspx?id=qbmAGv_YqECmbMazaOTyrlfc8a9tbPhJlsiK0RTnG6ZUQjk5TDE2TEVBRFdSSzZMQzlYODlVQlk5VS4u)
+<br><br>Interested in joining? [Become a Member!](https://forms.office.com/pages/responsepage.aspx?id=qbmAGv_YqECmbMazaOTyrlfc8a9tbPhJlsiK0RTnG6ZUQjk5TDE2TEVBRFdSSzZMQzlYODlVQlk5VS4u)
