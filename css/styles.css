@@ -11525,7 +11525,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #000;
+  background-color: #192a52;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11537,7 +11537,7 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000;
+  color: #fff;
   font-weight: 700;
   padding: 0.9rem 0;
   max-width: 200px;
@@ -11586,10 +11586,10 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #78abbf;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #78abbf;
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: #78abbf;
