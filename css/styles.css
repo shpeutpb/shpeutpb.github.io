@@ -11661,7 +11661,6 @@ body {
     display: flex;
     grid-template-columns: repeat(1, 1fr);
     /* grid-gap: 1rem; */
-    border-radius: 20px;
     flex-wrap: wrap;
 }
 
@@ -11680,6 +11679,7 @@ body {
 	height: auto;
 	max-width: 100%;
 	margin-bottom: 1rem;
+	border-radius: 20px;
 }
 
 .top-images img:last-child {
@@ -11687,6 +11687,7 @@ body {
 	height: auto;
 	max-width: 100%;
 	margin-bottom: 1rem;
+	border-radius: 20px;
 }
 
 .bottom-image {
@@ -11698,6 +11699,7 @@ body {
 	width: 100%;
 	height: auto;
 	max-width: 100%;
+	border-radius: 20px;
 }
 
 
