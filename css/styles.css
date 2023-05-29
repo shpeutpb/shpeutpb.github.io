@@ -11952,11 +11952,12 @@ img.wp-smiley, img.emoji {
     color: #ffffff;
   }
 
-  .contact-form-wrap h3 {
+.contact-form-wrap h3 {
     display: flex;
     align-items: center;
     margin: 0;
-  }
+    font-weight: bold;
+}
 
   .contact-form {
     flex-grow: 1;
