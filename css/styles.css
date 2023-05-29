@@ -12000,6 +12000,9 @@ img.wp-smiley, img.emoji {
   }
 
 /* WHO */
+.exe-board {
+    margin-top: 6rem;	
+}
 .exe-board h2 {
     margin-bottom: 20px;
     color: #000;
