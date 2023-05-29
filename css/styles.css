@@ -11658,37 +11658,40 @@ body {
 }
 
 .photo-collage {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 1rem;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-gap: 1rem; */
+    border-radius: 20px;
+    flex-wrap: wrap;
 }
 
 .top-images {
 	grid-column: 2 / 4;
-	grid-row: 1;
+	grid-row: 2;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	
 }
 
 .top-images img:first-child,
 .top-images img:nth-child(2) {
-	width: 50%;
+	width: 49%;
 	height: auto;
 	max-width: 100%;
 	margin-bottom: 1rem;
 }
 
 .top-images img:last-child {
-	width: 100%;
+	width: 49%;
 	height: auto;
 	max-width: 100%;
 	margin-bottom: 1rem;
 }
 
 .bottom-image {
-	grid-column: 4;
-	grid-row: 2;
+	grid-column: 2;
+	grid-row: 3;
 }
 
 .bottom-image img {
