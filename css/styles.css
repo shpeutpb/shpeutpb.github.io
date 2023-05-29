@@ -11640,15 +11640,6 @@ body {
   }
 }
 
-.about-section {
-  padding-top: 5rem;
-  text-align: left;
-  background: fff;
-}
-.about-section p {
-  margin-bottom: 5rem;
-}
-
 .projects-section {
   padding: 10rem 0;
 }
@@ -11747,10 +11738,6 @@ body {
 }
 
 
-/* .about-btn {
-  margin-top: -50px;
-  margin-bottom: 20px;
-} */
 
 /*  PRE FOOTER */
 @media (min-width: 768px)
@@ -11829,7 +11816,7 @@ img.wp-smiley, img.emoji {
 
 /* EVENTS */
   #calendar {
-    width: 75%;
+    width: 85%;
     text-align: left;
     margin: 30px auto;
     border: 1px solid #ccc;
@@ -11946,18 +11933,33 @@ img.wp-smiley, img.emoji {
     margin: var(--space-2);
 }
 
-/* ABOUT PHOTOS */
+/* ABOUT */
+.about-section {
+	padding-top: 5rem;
+	background: #fff;
+}
+
+.about-section p {
+	margin-bottom: 5rem;
+}
+
+.featured-text {
+	color: #d03719;
+}
+
 .photo-collage {
-  float: right;
-  width: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 1rem;
 }
 
 .photo-collage img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 10px;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
 }
+
 
 /* PHOTO GALLERY */
 .photo-section {
