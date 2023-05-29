@@ -11798,34 +11798,52 @@ body {
 
 
 /*  PRE FOOTER */
-@media (min-width: 768px)
-#sub-colophon .two-column {
+@media (min-width: 768px) {
+  #sub-colophon .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
+  }
 }
+
 #sub-colophon .two-column {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-@media (min-width: 768px)
-#sub-colophon .column:first-child {
+
+@media (min-width: 768px) {
+  #sub-colophon .column:first-child {
     margin-bottom: 0;
+    order: -1; /* Change the order to place it on the left */
+  }
 }
+
 #sub-colophon .column {
-    background: #fff;
-    border-radius: 20px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 #sub-colophon .sub-footer-block {
-    padding: 50px;
+  padding: 50px;
 }
-@media (min-width: 768px)
-#sub-colophon .sub-footer-content {
+
+@media (min-width: 768px) {
+  #sub-colophon .sub-footer-content {
     margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
     text-align: left;
+  }
 }
+
 #sub-colophon .btn {
-    display: block;
+  display: block;
 }
+
 button,
 input[type="button"],
 input[type="reset"],
