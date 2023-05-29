@@ -11798,6 +11798,10 @@ body {
 
 
 /*  PRE FOOTER */
+#sub-colophon .sub-footer-content {
+  background: #edeff2;
+}
+
 @media (min-width: 768px) {
   #sub-colophon .two-column {
     display: grid;
