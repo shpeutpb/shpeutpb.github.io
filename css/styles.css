@@ -11719,7 +11719,7 @@ body {
 }
 
 
-.projects-section {
+/* .projects-section {
   padding: 10rem 0;
 }
 .projects-section .featured-text {
@@ -11810,15 +11810,105 @@ body {
 }
 .contact-section .social a:active {
   color: #fff;
-}
+} */
 
 .footer {
   padding: 3rem 0;
 }
 
+/* CONTACT US */
+  .contact-form-wrap {
+    display: flex;
+    background-color: #1b68af;
+    border-radius: 1.25rem;
+    padding: 40px;
+    color: #ffffff;
+    margin-top: 6rem;
+    flex-direction: column;
+  }
+
+.contact-form-wrap h3 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+  .contact-form {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+
+  .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .contact-form .form-group {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .contact-form label {
+    font-weight: bold;
+  }
+
+/* WHO */
+.exe-board {
+    margin-top: 6rem;	
+    margin-bottom: 10rem;
+}
+.exe-board h2 {
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.exe-board ul {
+    padding-left: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.visually-hidden {
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+}
+.exe-board ul li .speaker, .exe-board ul li .speaker .info {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.exe-board ul li .speaker .speaker-img {
+    --size: 8rem;
+    height: 8rem;
+    height: var(--size,8rem);
+    min-width: 8rem;
+    min-width: var(--size,8rem);
+    border-radius: 100%;
+    background-size: cover;
+    margin: 0.25rem;
+    margin: var(--space-2);
+}
 
 
-/*  PRE FOOTER */
+/*  DONATE-JOIN */
 #sub-colophon .sub-footer-content {
   background: #edeff2;
 }
@@ -11959,98 +12049,6 @@ img.wp-smiley, img.emoji {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* CONTACT US */
-  .contact-form-wrap {
-    display: flex;
-    background-color: #1b68af;
-    border-radius: 1.25rem;
-    padding: 40px;
-    color: #ffffff;
-    margin-top: 6rem;
-    flex-direction: column;
-  }
-
-.contact-form-wrap h3 {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-  .contact-form {
-    flex-grow: 1;
-    margin-left: 20px;
-  }
-
-  .contact-form form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-
-  .contact-form .form-group {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-  }
-
-  .contact-form label {
-    font-weight: bold;
-  }
-
-/* WHO */
-.exe-board {
-    margin-top: 6rem;	
-    margin-bottom: 10rem;
-}
-.exe-board h2 {
-    margin-bottom: 20px;
-    color: #000;
-    font-weight: bold;
-}
-
-.exe-board ul {
-    padding-left: 0;
-    list-style: none;
-    display: -webkit-box;
-    display: flex;
-    justify-content: space-around;
-    -webkit-box-align: start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.visually-hidden {
-    position: absolute!important;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px,1px,1px,1px);
-}
-.exe-board ul li .speaker, .exe-board ul li .speaker .info {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-}
-.exe-board ul li .speaker .speaker-img {
-    --size: 8rem;
-    height: 8rem;
-    height: var(--size,8rem);
-    min-width: 8rem;
-    min-width: var(--size,8rem);
-    border-radius: 100%;
-    background-size: cover;
-    margin: 0.25rem;
-    margin: var(--space-2);
-}
-
-
 /* PHOTO GALLERY */
 #photo-section {
   padding: 20px;
@@ -12067,4 +12065,7 @@ img.wp-smiley, img.emoji {
   height: 0;
   padding-top: 100%; /* Maintain a square aspect ratio */
   object-fit: cover;
+}
+.photo-grid img:before {
+    background-color: rgba(84,89,95,.6);
 }
