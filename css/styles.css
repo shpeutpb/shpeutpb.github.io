@@ -11523,6 +11523,7 @@ body {
   letter-spacing: 0.0625em;
 }
 
+/* NAV */
 #mainNav {
   min-height: 3.5rem;
   background-color: #192a52;
@@ -11608,6 +11609,7 @@ body {
   border: 0;
 }
 
+/* HOME */
 .masthead {
   position: relative;
   width: 100%;
@@ -11765,16 +11767,6 @@ body {
   border: 0;
 }
 
-.text-center .hero-down {
-    flex: 0;
-    text-align: center;
-    opacity: .7;
-}
-
-.text-center .hero-down:hover {
-    opacity: 1
-}
-
 .contact-section {
   padding-top: 5rem;
 }
@@ -11811,6 +11803,16 @@ body {
 .contact-section .social a:active {
   color: #fff;
 } */
+
+.text-center .hero-down {
+    flex: 0;
+    text-align: center;
+    opacity: .7;
+}
+
+.text-center .hero-down:hover {
+    opacity: 1
+}
 
 .footer {
   padding: 3rem 0;
