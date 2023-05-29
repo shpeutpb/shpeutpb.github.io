@@ -11651,21 +11651,41 @@ body {
 }
 
 .featured-text {
-	color: #000;
+	color: #d03719;
 }
 
 .photo-collage {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	gap: 1rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
 }
 
-.photo-collage img {
+.top-images {
+	grid-column: 2 / 4;
+	grid-row: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.top-images img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	margin-bottom: 1rem;
+}
+
+.bottom-image {
+	grid-column: 4;
+	grid-row: 2;
+}
+
+.bottom-image img {
 	width: 100%;
 	height: auto;
 	max-width: 100%;
 }
+
 
 .projects-section {
   padding: 10rem 0;
