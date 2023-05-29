@@ -11931,6 +11931,10 @@ img.wp-smiley, img.emoji {
     margin-bottom: 5px;
   }
 
+.event-list li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* CONTACT US */
   .contact-form-wrap {
     display: flex;
