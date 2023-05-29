@@ -11982,7 +11982,13 @@ img.wp-smiley, img.emoji {
   }
 
 /* WHO */
-.home main .speakers ul {
+.exe-board h2 {
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.exe-board ul {
     padding-left: 0;
     list-style: none;
     display: -webkit-box;
@@ -11992,6 +11998,7 @@ img.wp-smiley, img.emoji {
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
 .visually-hidden {
     position: absolute!important;
     height: 1px;
@@ -12000,7 +12007,7 @@ img.wp-smiley, img.emoji {
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px,1px,1px,1px);
 }
-.speakers ul li .speaker, .speakers ul li .speaker .info {
+.exe-board ul li .speaker, .exe-board ul li .speaker .info {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -12009,7 +12016,7 @@ img.wp-smiley, img.emoji {
     -webkit-box-align: center;
     align-items: center;
 }
-.speakers ul li .speaker .speaker-img {
+.exe-board ul li .speaker .speaker-img {
     --size: 8rem;
     height: 8rem;
     height: var(--size,8rem);
