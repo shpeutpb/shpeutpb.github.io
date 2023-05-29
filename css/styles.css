@@ -11642,6 +11642,7 @@ body {
 
 .about-section {
   padding-top: 5rem;
+  text-align: left;
   background: fff;
 }
 .about-section p {
@@ -11828,6 +11829,7 @@ img.wp-smiley, img.emoji {
 
 /* EVENTS */
   #calendar {
+    width: 75%;
     text-align: left;
     margin: 30px auto;
     border: 1px solid #ccc;
