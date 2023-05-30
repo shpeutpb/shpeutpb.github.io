@@ -9,7 +9,7 @@
 * Upload/open folder in **VSCode**
 * Click on `events.html` and edit as needed
 * Make sure _File > Auto Save_
-* Click on _Run > Start Debugging_ to open `localhost` in browser and see changes
+* In `index.html`, you can click on _Run > Start Debugging_ to open `localhost` in browser and see changes
 * Once complete, Copy/Paste edits to `events.html` file on Github
 * AND **Commit changes...**. You can also **Create a new branch for this commit and start a pull request.** for edits to be reviewed before being made public.
 
