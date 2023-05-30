@@ -214,7 +214,7 @@
 			</div>
 
 			<!-- EVENTS -->
-			<section id="calendar">
+			<section id="events-container">
 <!-- 				<h2>Upcoming Events</h2>
 				<ul class="event-list">
 				<li>
@@ -280,7 +280,7 @@
 		.then(response => response.text())
 		.then(data => {
 		// Insert the content into the events-container div
-		const eventsContainer = document.getElementById('calendar');
+		const eventsContainer = document.getElementById('events-container');
 		eventsContainer.innerHTML = data;
 		})
 		.catch(error => console.log('Error fetching events:', error));
