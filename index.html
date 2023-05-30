@@ -215,7 +215,7 @@
 
 			<!-- EVENTS -->
 			<section id="calendar">
-				<h2>Upcoming Events</h2>
+<!-- 				<h2>Upcoming Events</h2>
 				<ul class="event-list">
 				<li>
 				<h3>Event 1</h3>
@@ -232,7 +232,7 @@
 				<p>Date: October 20, 2023</p>
 				<p>Location: Venue 3</p>
 				</li>
-				</ul>
+				</ul> -->
 			</section>
 
 			<!-- PHOTO GALLERY -->
@@ -273,6 +273,18 @@
 		<div class="container px-4 px-lg-5">&copy; SHPEUTPB, 2023</div>
 		</div>
 	</footer>
+	
+	  <script>
+		// Fetch the events.html file
+		fetch('events.html')
+		.then(response => response.text())
+		.then(data => {
+		// Insert the content into the events-container div
+		const eventsContainer = document.getElementById('calendar');
+		eventsContainer.innerHTML = data;
+		})
+		.catch(error => console.log('Error fetching events:', error));
+  	</script>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="js/scripts.js"></script>
