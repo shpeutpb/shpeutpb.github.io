@@ -1,5 +1,5 @@
 ## To do
-[] Edit "About us"
+[ ] Edit "About us"
 * Test email form
 * Edit "Who we are"
 * Maybe add Donation page
