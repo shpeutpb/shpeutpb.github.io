@@ -1,3 +1,12 @@
+## To do
+* Edit "About us"
+* Test email form
+* Edit "Who we are"
+* Maybe add Donation page
+* Link speaker form
+* Add Sponsors
+* Add LinkedIn
+
 ## Steps to Edit
 
 **1. Download Project**
